@@ -25,11 +25,12 @@ body {
 	width: 40%;
 	height: 20vw;
 	background: black;
+	border-radius: 10% 10% 0 0;
 	/* left: 50%; */
-    /* margin-left: -20%; */
+  /* margin-left: -20%; */
 }
 .eyes {
-display: flex;
+  display: flex;
 }
 
 .l-eye {
@@ -39,6 +40,7 @@ margin-right: auto;
 width: 20px;
 height: 10px;
 background-color: yellow;
+border-radius: 0% 80% 0% 80%;
 }
 
 .r-eye {
@@ -49,6 +51,7 @@ margin-right: auto;
 width: 20px;
 height: 10px;
 background-color: yellow;
+border-radius: 80% 0% 80% 0%;
 }
 
 .mouths {
@@ -58,6 +61,7 @@ margin-right: auto;
 width: 40px;
 height: 15px;
 background-color: yellow;
+border-radius: 10%;
 }
 
 /*  */
