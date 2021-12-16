@@ -5,64 +5,60 @@
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
 	background-color: royalblue;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
 }
 
 .hero {
+	display: flex;
+	justify-content: center;
 	margin-top: 10vh;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	height: 70vw;
+	width: 50vh;
+	height: 80vh;
 	background-color: burlywood;
 }
 
-.head {
-	/* position: absolute; */
+.hero__head {
 	margin-top: 10%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
-	height: 20vw;
+	width: 20vw;
+	height: 15vw;
 	background: black;
-	border-radius: 30% 30% 0 0;
-	/* left: 50%; */
-	/* margin-left: -20%; */
+	border-radius: 20% 20% 0 0 / 80% 80% 0 0; 
 }
-.eyes {
-	display: flex;
-}
-
-.l-eye {
-	margin-top: 30%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	height: 4vw;
-	background-color: yellow;
-	border-radius: 0% 80% 0% 80%;
-}
-
-.r-eye {
-	margin: auto;
-	margin-top: 30%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	height: 4vw;
-	background-color: yellow;
-	border-radius: 80% 0% 80% 0%;
-}
-
-.mouths {
-	margin-top: 20%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	height: 4vw;
-	background-color: yellow;
-	border-radius: 10%;
-}
-
+/* .eyes { */
+/* display: flex; */
+/* } */
 /*  */
+/* .l-eye { */
+/* margin-top: 30%; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+/* width: 30%; */
+/* height: 4vw; */
+/* background-color: yellow; */
+/* border-radius: 0% 80% 0% 80%; */
+/* } */
+/*  */
+/* .r-eye { */
+/* margin: auto; */
+/* margin-top: 30%; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+/* width: 30%; */
+/* height: 4vw; */
+/* background-color: yellow; */
+/* border-radius: 80% 0% 80% 0%; */
+/* } */
+/*  */
+/* .mouths { */
+/* margin-top: 20%; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+/* width: 50%; */
+/* height: 4vw; */
+/* background-color: yellow; */
+/* border-radius: 10%; */
+/* } */
