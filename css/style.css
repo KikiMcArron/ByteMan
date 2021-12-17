@@ -13,6 +13,7 @@ body {
 }
 
 .hero {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	margin-top: 10vh;
@@ -21,13 +22,20 @@ body {
 	background-color: burlywood;
 }
 
+.hero__ears {
+	position: absolute;
+	width: 50%;
+	height: 6%;
+	background-color: blanchedalmond;
+}
 .hero__head {
 	margin-top: 10%;
-	width: 20vw;
-	height: 15vw;
+	width: 50%;
+	height: 22%;
 	background: black;
 	border-radius: 20% 20% 0 0 / 80% 80% 0 0; 
 }
+
 /* .eyes { */
 /* display: flex; */
 /* } */
