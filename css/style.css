@@ -91,3 +91,10 @@ body {
 	height: 12%;
 	width: 60%;
 }
+.hero__face__l-eye:hover ~ .hero__face__r-eye {
+	transform: scale(0.5);
+}
+.hero__face__l-eye:hover {
+	transform: scale(0.5);
+}
+
