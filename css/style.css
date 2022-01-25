@@ -29,7 +29,6 @@ body {
 	width: 50vh;
 	height: 80vh;
 	background-color: var(--color-bgc);
-	/* background-color: rgba(172, 255, 47, 0.048); */
 }
 
 .hero__head {
@@ -39,27 +38,26 @@ body {
 	flex-wrap: wrap;
 	width: 100%;
 	height: 20%;
-	/* background-color: white; */
 }
 .hero__face {
 	position: relative;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	width: 30%;
+	width: 27%;
 	height: 100%;
 	background: black;
 	border-radius: 30% 30% 10% 10% / 100% 100% 100% 100%;
 }
 
-.hero__face__ears {
+.hero__ears {
 	background-color: var(--color-bgc);
 	border-radius: 0 0 10% 10% / 0 0 50% 50%;
 	height: 30%;
 	width: 60%;
 }
 
-.hero__face__eyes {
+.hero__eyes {
 	display: flex;
 	justify-content: center;
 	margin-top: 15%;
@@ -67,7 +65,7 @@ body {
 	height: 10%;
 }
 
-.hero__face__l-eye {
+.hero__l-eye {
 	margin: 0 7%;
 	width: 22%;
 	height: 90%;
@@ -75,7 +73,7 @@ body {
 	background-color: var(--color-skin);
 }
 
-.hero__face__r-eye {
+.hero__r-eye {
 	margin: 0 7%;
 	width: 22%;
 	height: 90%;
@@ -83,7 +81,7 @@ body {
 	background-color: var(--color-skin);
 }
 
-.hero__face__mouth {
+.hero__mouth {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -93,7 +91,7 @@ body {
 	background-color: var(--color-skin);
 }
 
-.hero__face__mouth::after {
+.hero__mouth::after {
 	content: '';
 	position: absolute;
 	top: 45%;
@@ -107,10 +105,19 @@ body {
 	position: relative;
 	width: 100%;
 	height: 50%;
-	/* background-color: var(--color-transparent); */
 }
+
 .hero__legs {
+	position: relative;
 	width: 20%;
 	height: 30%;
-	/* background-color: violet; */
 }
+
+.hero__r-eye:hover ~ .hero__l-eye {
+	transform: scale(0.5);
+}
+
+.hero__l-eye:hover ~ .hero__r-eye {
+	transform: scale(0.5);
+}
+
