@@ -1,0 +1,34 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1649068881752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1649068888345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n             <div class=\"hero__l-hand\"></div>\n             <div class=\"hero__r-hand\"></div>\n         </div>\n         <div class=\"hero__legs\"></div>\n-        \n+        di\n     </div>\n \n </body>\n \n"
+                },
+                {
+                    "date": 1649068894173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n             <div class=\"hero__l-hand\"></div>\n             <div class=\"hero__r-hand\"></div>\n         </div>\n         <div class=\"hero__legs\"></div>\n-        di\n+        <div>cl</div>\n     </div>\n \n </body>\n \n"
+                },
+                {
+                    "date": 1649068904739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n             <div class=\"hero__l-hand\"></div>\n             <div class=\"hero__r-hand\"></div>\n         </div>\n         <div class=\"hero__legs\"></div>\n-        <div>cl</div>\n+        \n     </div>\n \n </body>\n \n"
+                },
+                {
+                    "date": 1649068910748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n             <div class=\"hero__l-hand\"></div>\n             <div class=\"hero__r-hand\"></div>\n         </div>\n         <div class=\"hero__legs\"></div>\n-        \n+        <div class=\"hero__feets\"></div>\n     </div>\n \n </body>\n \n"
+                }
+            ],
+            "date": 1649068881751,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"pl\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css\">\n\n    <title>BajtMan</title>\n    <link rel=\"stylesheet\" href=\"./css/style.css\">\n</head>\n\n<body>\n\n    <div class=\"hero coord\">\n        <div class=\"hero__head coord\">\n            <div class=\"hero__eyes coord\">\n                <div class=\"hero__l-eye\"></div>\n                <div class=\"hero__r-eye\"></div>\n            </div>\n            <div class=\"hero__mouth coord\"></div>\n        </div>\n        <div class=\"hero__body coord\">\n            <div class=\"hero__cape\"></div>\n            <div class=\"hero__torso coord\">\n                <div class=\"hero__chest\"></div>\n                <div class=\"hero__belly-top\"></div>\n                <div class=\"hero__belly-middle\"></div>\n                <div class=\"hero__belly-bottom\"></div>\n                <div class=\"hero__belt coord\">\n                    <div class=\"hero__belt__badge\"><i class=\"ti ti-code\"></i></div>\n                </div>\n            </div>\n            <div class=\"hero__l-hand\"></div>\n            <div class=\"hero__r-hand\"></div>\n        </div>\n        <div class=\"hero__legs\"></div>\n        \n    </div>\n\n</body>\n\n</html>"
+        }
+    ]
+}
