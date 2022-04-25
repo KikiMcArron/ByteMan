@@ -353,31 +353,9 @@ body {
   position: absolute;
   background: #1f1d1d;
   top: 53%;
-  width: 39%;
+  width: 40%;
   height: 50%;
   -webkit-clip-path: polygon(20% 0, 80% 0, 100% 100%, 80% 100%, 50% 25%, 20% 100%, 0 100%);
           clip-path: polygon(20% 0, 80% 0, 100% 100%, 80% 100%, 50% 25%, 20% 100%, 0 100%);
-}
-
-@-webkit-keyframes rotate {
-  from {
-    -webkit-transform: skewY(-15deg);
-            transform: skewY(-15deg);
-  }
-  to {
-    -webkit-transform: skewY(15deg);
-            transform: skewY(15deg);
-  }
-}
-
-@keyframes rotate {
-  from {
-    -webkit-transform: skewY(-15deg);
-            transform: skewY(-15deg);
-  }
-  to {
-    -webkit-transform: skewY(15deg);
-            transform: skewY(15deg);
-  }
 }
 /*# sourceMappingURL=style.css.map */
