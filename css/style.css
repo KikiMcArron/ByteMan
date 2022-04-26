@@ -49,8 +49,7 @@ body {
   border-radius: 40% 40% 60% 60% / 80% 80% 40% 40%;
 }
 
-.hero__head::before,
-.hero__head::after {
+.hero__head::before, .hero__head::after {
   content: '';
   position: absolute;
   top: -45%;
@@ -69,7 +68,7 @@ body {
   border-radius: 15% 80% 0% 0% / 60% 100% 0% 0%;
 }
 
-.hero__eyes {
+.hero__head__eyes {
   position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -79,24 +78,22 @@ body {
   height: 14%;
 }
 
-.hero__l-eye,
-.hero__r-eye {
+.hero__head__eyes__l-eye, .hero__head__eyes__r-eye {
   margin: 0 7%;
   width: 22%;
   height: 90%;
   background-color: #836237;
 }
 
-.hero__l-eye {
+.hero__head__eyes__l-eye {
   border-radius: 30% 50% 20% 40%;
 }
 
-.hero__r-eye {
+.hero__head__eyes__r-eye {
   border-radius: 50% 30% 40% 20%;
 }
 
-.hero__r-eye::before,
-.hero__r-eye::after {
+.hero__head__eyes__r-eye::before, .hero__head__eyes__r-eye::after {
   content: '';
   position: absolute;
   top: 15%;
@@ -106,15 +103,15 @@ body {
   border-radius: 50%;
 }
 
-.hero__r-eye::before {
+.hero__head__eyes__r-eye::before {
   right: 28%;
 }
 
-.hero__r-eye::after {
+.hero__head__eyes__r-eye::after {
   left: 28%;
 }
 
-.hero__mouth {
+.hero__head__mouth {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -125,7 +122,7 @@ body {
   background-color: #836237;
 }
 
-.hero__mouth::before {
+.hero__head__mouth::before {
   content: '';
   position: absolute;
   top: 45%;
@@ -143,19 +140,18 @@ body {
   height: 50%;
 }
 
-.hero__cape,
-.hero__cape::before {
+.hero__body__cape, .hero__body__cape::before {
   position: absolute;
   width: 100%;
   background-color: black;
 }
 
-.hero__cape {
+.hero__body__cape {
   height: 80%;
   border-radius: 40% 40% 10% 10% / 100% 100% 0 0;
 }
 
-.hero__cape::before {
+.hero__body__cape::before {
   content: '';
   height: 100%;
   top: 99%;
@@ -163,7 +159,7 @@ body {
           clip-path: polygon(0% 0%, 100% 0%, 98% 30%, 70% 2%, 55% 30%, 45% 30%, 30% 2%, 2% 30%);
 }
 
-.hero__torso {
+.hero__body__torso {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -177,8 +173,7 @@ body {
   border-radius: 25% 25% 50% 50% / 20% 20% 60% 60%;
 }
 
-.hero__chest::before,
-.hero__chest::after {
+.hero__body__torso__chest::before, .hero__body__torso__chest::after {
   content: '';
   position: absolute;
   top: 20%;
@@ -187,87 +182,79 @@ body {
   border-bottom: 3px solid black;
 }
 
-.hero__chest::before {
+.hero__body__torso__chest::before {
   left: -1%;
   border-right: 3px solid black;
   border-radius: 0 0 50% 20% / 0 0 50% 20%;
 }
 
-.hero__chest::after {
+.hero__body__torso__chest::after {
   right: -1%;
   border-left: 3px solid black;
   border-radius: 0 0 20% 50% / 0 0 20% 50%;
 }
 
-.hero__belly-top::before,
-.hero__belly-top::after,
-.hero__belly-middle::before,
-.hero__belly-middle::after,
-.hero__belly-bottom::before,
-.hero__belly-bottom::after {
-  content: '';
-  position: absolute;
-  border-bottom: 2px solid black;
-}
-
-.hero__belly-top::before,
-.hero__belly-top::after {
+.hero__body__torso__belly-top::before, .hero__body__torso__belly-top::after {
   top: 40%;
   width: 30%;
   height: 6%;
 }
 
-.hero__belly-top::before {
+.hero__body__torso__belly-top::before {
   left: 19%;
   border-right: 2px solid black;
   border-radius: 0 0 50% 20% / 0 0 50% 20%;
 }
 
-.hero__belly-top::after {
+.hero__body__torso__belly-top::after {
   right: 19%;
   border-left: 2px solid black;
   border-radius: 0 0 20% 50% / 0 0 20% 50%;
 }
 
-.hero__belly-middle::before,
-.hero__belly-middle::after {
+.hero__body__torso__belly-middle::before, .hero__body__torso__belly-middle::after {
   top: 45%;
   width: 25%;
   height: 6%;
 }
 
-.hero__belly-middle::before {
+.hero__body__torso__belly-middle::before {
   left: 24%;
   border-right: 2px solid black;
   border-radius: 0 0 50% 20% / 0 0 50% 20%;
 }
 
-.hero__belly-middle::after {
+.hero__body__torso__belly-middle::after {
   right: 24%;
   border-left: 2px solid black;
   border-radius: 0 0 20% 50% / 0 0 20% 50%;
 }
 
-.hero__belly-bottom::before,
-.hero__belly-bottom::after {
+.hero__body__torso__belly-bottom::before, .hero__body__torso__belly-bottom::after {
   top: 50%;
   width: 20%;
   height: 6%;
 }
 
-.hero__belly-bottom::before {
+.hero__body__torso__belly-bottom::before {
   left: 29%;
   border-right: 2px solid black;
   border-radius: 0 0 50% 20% / 0 0 50% 20%;
 }
 
-.hero__belly-bottom::after {
+.hero__body__torso__belly-bottom::after {
   right: 29%;
   border-left: 2px solid black;
   border-radius: 0 0 20% 50% / 0 0 20% 50%;
 }
 
-.hero__belt {
+.hero__body__torso__belly-top::before, .hero__body__torso__belly-top::after, .hero__body__torso__belly-middle::before, .hero__body__torso__belly-middle::after, .hero__body__torso__belly-bottom::before, .hero__body__torso__belly-bottom::after {
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid black;
+}
+
+.hero__body__torso__belt {
   position: absolute;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -283,7 +270,7 @@ body {
   z-index: 5;
 }
 
-.hero__belt__badge {
+.hero__body__torso__belt__badge {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,13 +286,12 @@ body {
   border-radius: 50%;
 }
 
-.hero__belt__badge .ti {
+.hero__body__torso__belt__badge .ti {
   font-size: 5vh;
   color: #e4d124;
 }
 
-.hero__l-hand,
-.hero__r-hand {
+.hero__body__l-hand, .hero__body__r-hand {
   position: absolute;
   top: -1%;
   width: 10%;
@@ -313,22 +299,7 @@ body {
   background-color: #1f1d1d;
 }
 
-.hero__l-hand {
-  left: 23%;
-  border-radius: 50% 10% 40% 40% / 40% 10% 50% 50%;
-  -webkit-transform: rotate(23deg);
-          transform: rotate(23deg);
-}
-
-.hero__r-hand {
-  right: 23%;
-  border-radius: 10% 50% 40% 40% / 10% 40% 50% 50%;
-  -webkit-transform: rotate(-23deg);
-          transform: rotate(-23deg);
-}
-
-.hero__l-hand::before,
-.hero__r-hand::before {
+.hero__body__l-hand::before, .hero__body__r-hand::before {
   content: '';
   position: absolute;
   background-color: #836237;
@@ -337,13 +308,27 @@ body {
   height: 20%;
 }
 
-.hero__l-hand::before {
+.hero__body__l-hand {
+  left: 23%;
+  border-radius: 50% 10% 40% 40% / 40% 10% 50% 50%;
+  -webkit-transform: rotate(23deg);
+          transform: rotate(23deg);
+}
+
+.hero__body__l-hand::before {
   left: 17%;
   -webkit-clip-path: polygon(20% 100%, 0 50%, 0 15%, 10% 0, 90% 0, 100% 15%, 100% 50%, 80% 75%, 65% 75%, 70% 50%, 50% 30%, 30% 50%, 30% 100%);
           clip-path: polygon(20% 100%, 0 50%, 0 15%, 10% 0, 90% 0, 100% 15%, 100% 50%, 80% 75%, 65% 75%, 70% 50%, 50% 30%, 30% 50%, 30% 100%);
 }
 
-.hero__r-hand::before {
+.hero__body__r-hand {
+  right: 23%;
+  border-radius: 10% 50% 40% 40% / 10% 40% 50% 50%;
+  -webkit-transform: rotate(-23deg);
+          transform: rotate(-23deg);
+}
+
+.hero__body__r-hand::before {
   right: 17%;
   -webkit-clip-path: polygon(20% 75%, 0 50%, 0 15%, 10% 0, 90% 0, 100% 15%, 100% 50%, 80% 100%, 70% 100%, 70% 50%, 50% 30%, 30% 50%, 35% 75%);
           clip-path: polygon(20% 75%, 0 50%, 0 15%, 10% 0, 90% 0, 100% 15%, 100% 50%, 80% 100%, 70% 100%, 70% 50%, 50% 30%, 30% 50%, 35% 75%);
